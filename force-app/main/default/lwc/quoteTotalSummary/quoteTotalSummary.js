@@ -7,6 +7,7 @@ import { LightningElement } from "lwc";
 
 export default class QuoteTotalSummary extends LightningElement {
 
+    isClicked = false;
     onAdjustClick(){
         this.isClicked = true;
     }
