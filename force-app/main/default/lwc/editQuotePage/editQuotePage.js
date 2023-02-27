@@ -7,4 +7,9 @@ import { LightningElement, api } from "lwc";
 
 export default class EditQuotePage extends LightningElement {
   @api recordId;
+  updatedQutoes;
+  onSave(){
+
+    this.updatedQutoes = event.target.detail;
+  }
 }
